@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react'
 
 // imports components
-import Logo from "../assets/img/logo.svg"
+import Logo from "../assets/img/logo.png"
 import Nav from './Nav'
 import NavMobile from './NavMobile'
 import Social from "./Social"
@@ -21,7 +21,7 @@ export default function Header() {
         {/* logo for my  */}
         <a href="/">
 
-        <img src={Logo} alt="" />
+        <img className='w-80' src={Logo} alt="" />
         </a>
         {/* nav.js */}
         <div className="hidden lg:block">

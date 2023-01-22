@@ -8,6 +8,8 @@ import About from './Components/About';
 import Skill from './Components/Skills';
 import Portfolio from './Components/Portfolio';
 import Services from './Components/Services';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 const App = () => {
   return <div>
@@ -18,7 +20,9 @@ const App = () => {
           <Skill />
           <Portfolio />
           <Services />
-          {/* <div style={{height:"2000px"}}></div> */}
+          <Contact />
+          <Footer />
+        
   </div>;
 };
 

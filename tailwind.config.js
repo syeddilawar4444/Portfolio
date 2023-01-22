@@ -35,6 +35,11 @@ module.exports = {
         },
         paragraph: '#878e99',
       },
+      fontFamily: {
+        'script': ['"Luxurious Script"', 'cursive'],
+        'Khula': ['"Khula"', 'sans-serif'],
+
+      },
     },
   },
   plugins: [],

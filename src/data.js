@@ -4,13 +4,15 @@ import {
   FiInstagram,
   FiGithub,
   FiDribbble,
+  FiTwitter,
   FiLayout,
   FiSettings,
   FiPenTool,
   FiTag,
   FiMail,
   FiMapPin,
-  FiFacebook
+  FiFacebook,
+  FiLinkedin
 } from 'react-icons/fi';
 
 // companies icons
@@ -62,10 +64,6 @@ export const navigation = [
     href: 'services',
   },
   {
-    name: 'testimonials',
-    href: 'testimonials',
-  },
-  {
     name: 'contact',
     href: 'contact',
   },
@@ -73,21 +71,22 @@ export const navigation = [
 
 // social
 export const social = [
-  {
-    icon: <FiYoutube />,
-    href: 'https://www.youtube.com/',
-  },
+  
   {
     icon: <FiFacebook  />,
     href: 'https://www.facebook.com/',
+  },
+  {
+    icon: <FiLinkedin />,
+    href: 'https://pk.linkedin.com/',
   },
   {
     icon: <FiGithub />,
     href: 'https://github.com/syeddilawar4444',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
+    icon: <FiTwitter />,
+    href: 'https://twitter.com',
   },
 ];
 
@@ -267,14 +266,14 @@ export const testimonials = [
 export const contact = [
   {
     icon: <FiMail />,
-    title: 'Have a question?',
+    title: 'Have a Question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    description: 'Email me at syeddilawar4444@gmail.com',
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
-    description: 'Serving clients worldwide',
+    subtitle: 'Karachi, Pakistan',
+    description: 'Serving Clients Worldwide',
   },
 ];

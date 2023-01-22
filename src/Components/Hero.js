@@ -1,6 +1,6 @@
 import React from 'react'
+import Womanimg from "../assets/img/circle-spin.svg"
 
-import Womanimg from "../assets/img/banner-woman2.webp"
 
 
 export default function Hero() {
@@ -13,11 +13,16 @@ export default function Hero() {
           <div className="flex items-center h-full pt-8">
             {/* Left side */}
             <div className="flex-1 flex flex-col items-center lg:items-start">
-              <p className='text-lg text-accent mb-6'>Hey, I'm Syed Dilawar Hussain</p>
-              <h1 className='text-4xl leading-[44px] md:text-5xl
-               md:leading-tight lg:text-7xl lg:leading-[1-2]
-                font-bold md:tracking-[-2]'>I Build & Desing <br /> Web Interfaces</h1>
-                <p className='text-lg pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-center lg:text-left '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, infsdfsfsdf fs fsf.</p>
+              <p className=' text- mb-6 text-4xl text-center md:text-5xl font-script '>Hey, I'm Syed Dilawar Hussain</p>
+
+              <h1 className='text-2xl text-center leading-[44px] md:text-4xl
+               md:leading-tight lg:text-4xl lg:leading-[1-2] lg:text-start xl:text-5xl
+                font-bold md:tracking-[-2]'>I Build Web <br /> And Mobile Applications </h1>
+                <p className='text-lg pt-4 
+                pb-8 md:pt-6 md:pb-12 max-w-[480px]
+                 text-center lg:text-left font-Khula tracking-wider '>
+                  A passionate MERN Stack Developer  having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.
+                  </p>
             
 
                 <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all">
@@ -29,7 +34,14 @@ export default function Hero() {
                             </div>
             {/* right side */}
             <div className="hidden lg:flex flex-1 justify-end items-end h-full">
-              <img src={Womanimg} alt="" />
+              {/* <Womanimg /> */}
+              <div>
+        
+
+              </div>
+            
+
+              <img className='animate-spin' src="../assets/img/circle-spin.svg" alt="" />
             </div>
           </div>
         </div>
