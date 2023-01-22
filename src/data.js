@@ -10,6 +10,7 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
+  FiFacebook
 } from 'react-icons/fi';
 
 // companies icons
@@ -32,7 +33,7 @@ import SkillImg1 from './assets/img/skills/html5.png';
 import SkillImg2 from './assets/img/skills/css3.png';
 import SkillImg3 from './assets/img/skills/js.png';
 import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/nextjs.png';
+import SkillImg5 from './assets/img/skills/tailwaind.svg';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
@@ -74,15 +75,15 @@ export const navigation = [
 export const social = [
   {
     icon: <FiYoutube />,
-    href: '',
+    href: 'https://www.youtube.com/',
   },
   {
-    icon: <FiInstagram />,
-    href: '',
+    icon: <FiFacebook  />,
+    href: 'https://www.facebook.com/',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/syeddilawar4444',
   },
   {
     icon: <FiDribbble />,
@@ -104,14 +105,14 @@ export const brands = [
     img: FiverBrandIcon,
     href: '',
   },
-  {
-    img: BehanceBrandIcon,
-    href: '',
-  },
-  {
-    img: DribbbleBrandIcon,
-    href: '',
-  },
+  // {
+  //   img: BehanceBrandIcon,
+  //   href: '',
+  // },
+  // {
+  //   img: DribbbleBrandIcon,
+  //   href: '',
+  // },
 ];
 
 // projects
@@ -120,53 +121,64 @@ export const projectsData = [
     id: '1',
     image: Project1,
     name: 'project name 1',
-    category: 'UI/UX design',
+    category: 'REact native',
+    description:"fksdjflsdkjfo jweorweoirjowfjosjff94ueorjwekfjsklfjwfujwofjwofjsojfslkfjslfjslkfjsldfjsf"
   },
   {
     id: '2',
     image: Project2,
     name: 'project name 2',
-    category: 'web development',
+    category: 'React native',
+    description:"fksdjflsdkjfo jweorweoirjowfjosjff94ueorjwekfjsklfjwfujwofjwofjsojfslkfjslfjslkfjsldfjsf"
+
   },
   {
     id: '3',
     image: Project3,
     name: 'project name 3',
-    category: 'UI/UX design',
+    category: 'react js',
+    description:"fksdjflsdkjfo jweorweoirjowfjosjff94ueorjwekfjsklfjwfujwofjwofjsojfslkfjslfjslkfjsldfjsf"
+
   },
   {
     id: '4',
     image: Project4,
     name: 'project name 4',
-    category: 'branding',
+    category: 'react js',
+    description:"fksdjflsdkjfo jweorweoirjowfjosjff94ueorjwekfjsklfjwfujwofjwofjsojfslkfjslfjslkfjsldfjsf"
+
   },
   {
     id: '5',
     image: Project5,
     name: 'project name 5',
     category: 'web development',
+    description:"fksdjflsdkjfo jweorweoirjowfjosjff94ueorjwekfjsklfjwfujwofjwofjsojfslkfjslfjslkfjsldfjsf"
+
   },
   {
     id: '6',
     image: Project6,
     name: 'project name 6',
     category: 'web development',
+    description:"fksdjflsdkjfo jweorweoirjowfjosjff94ueorjwekfjsklfjwfujwofjwofjsojfslkfjslfjslkfjsldfjsf"
+
   },
 ];
 
 // projects
 export const projectsNav = [
   {
-    name: 'all',
-  },
-  {
-    name: 'UI/UX Design',
+    name: 'All',
   },
   {
     name: 'web development',
   },
   {
-    name: 'branding',
+    name: 'React Js',
+  },
+  {
+    name: 'React Native',
   },
 ];
 
@@ -184,9 +196,9 @@ export const skills = [
   {
     image: SkillImg4,
   },
-  {
-    image: SkillImg5,
-  },
+  //  {
+  //   image: SkillImg5,
+  // },
   {
     image: SkillImg6,
   },
