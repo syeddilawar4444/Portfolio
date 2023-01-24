@@ -12,7 +12,8 @@ import {
   FiMail,
   FiMapPin,
   FiFacebook,
-  FiLinkedin
+  FiLinkedin,
+  FiPhoneCall
 } from 'react-icons/fi';
 
 // companies icons
@@ -35,7 +36,7 @@ import SkillImg1 from './assets/img/skills/html5.png';
 import SkillImg2 from './assets/img/skills/css3.png';
 import SkillImg3 from './assets/img/skills/js.png';
 import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/tailwaind.svg';
+import SkillImg5 from './assets/img/skills/bootstrap.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
@@ -119,16 +120,21 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
+    name: 'OLX APPLICATION',
     category: 'REact native',
-    description:"fksdjflsdkjfo jweorweoirjowfjosjff94ueorjwekfjsklfjwfujwofjwofjsojfslkfjslfjslkfjsldfjsf"
+    github:"https://www.github.com",
+    view:"https://www.netlify.com/",
+
+    description:"OLX Application is the my name is syed dilawar hussain with the real chat app Feature in teh machine to teh root we as nothing int her root we as nothien in tehr  "
   },
   {
+    
     id: '2',
     image: Project2,
     name: 'project name 2',
     category: 'React native',
-    description:"fksdjflsdkjfo jweorweoirjowfjosjff94ueorjwekfjsklfjwfujwofjwofjsojfslkfjslfjslkfjsldfjsf"
+    
+    description:"OLX Application is the my name is syed dilawar hussain with the real chat app Feature in teh machine to teh root we as nothing int her root we as nothien in tehr  "
 
   },
   {
@@ -136,7 +142,7 @@ export const projectsData = [
     image: Project3,
     name: 'project name 3',
     category: 'react js',
-    description:"fksdjflsdkjfo jweorweoirjowfjosjff94ueorjwekfjsklfjwfujwofjwofjsojfslkfjslfjslkfjsldfjsf"
+    description:"OLX Application is the my name is syed dilawar hussain with the real chat app Feature in teh machine to teh root we as nothing int her root we as nothing."
 
   },
   {
@@ -144,15 +150,14 @@ export const projectsData = [
     image: Project4,
     name: 'project name 4',
     category: 'react js',
-    description:"fksdjflsdkjfo jweorweoirjowfjosjff94ueorjwekfjsklfjwfujwofjwofjsojfslkfjslfjslkfjsldfjsf"
-
+    description:"OLX Application is the my name is syed dilawar hussain with the real chat app Feature in teh machine to teh root we as nothing int her root we as nothien in tehr  "
   },
   {
     id: '5',
     image: Project5,
     name: 'project name 5',
     category: 'web development',
-    description:"fksdjflsdkjfo jweorweoirjowfjosjff94ueorjwekfjsklfjwfujwofjwofjsojfslkfjslfjslkfjsldfjsf"
+    description:"OLX Application is the my name is syed dilawar hussain with the real chat app Feature in teh machine to teh root we as nothing int her root we as nothien in tehr  "
 
   },
   {
@@ -160,7 +165,7 @@ export const projectsData = [
     image: Project6,
     name: 'project name 6',
     category: 'web development',
-    description:"fksdjflsdkjfo jweorweoirjowfjosjff94ueorjwekfjsklfjwfujwofjwofjsojfslkfjslfjslkfjsldfjsf"
+    description:"OLX Application is the my name is syed dilawar hussain with the real chat app Feature in teh machine to teh root we as nothing int her root we as nothien in tehr  "
 
   },
 ];
@@ -195,9 +200,9 @@ export const skills = [
   {
     image: SkillImg4,
   },
-  //  {
-  //   image: SkillImg5,
-  // },
+   {
+    image: SkillImg5,
+  },
   {
     image: SkillImg6,
   },
@@ -225,16 +230,16 @@ export const services = [
   },
   {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: 'Mobile Application',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
-  {
-    icon: <FiTag />,
-    name: 'SEO',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
+  // {
+  //   icon: <FiTag />,
+  //   name: 'SEO',
+  //   description:
+  //     'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+  // },
 ];
 
 // testimonials
@@ -267,13 +272,23 @@ export const contact = [
   {
     icon: <FiMail />,
     title: 'Have a Question?',
-    subtitle: 'I am here to help you.',
-    description: 'Email me at syeddilawar4444@gmail.com',
+    subtitle: 'I am here to help you Email me at.',
+    description: 'syeddilawar4444@gmail.com',
+    href:"mailto:syeddilawar4444@gmail.com"
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Karachi, Pakistan',
-    description: 'Serving Clients Worldwide',
+    subtitle: 'Serving Clients Worldwide',
+    description: 'Karachi, Pakistan',
+    // href:"app.js"
+  },
+  {
+    icon: <FiPhoneCall />,
+    // DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.
+    title: 'Discuss a Project',
+    subtitle: 'My Inbox Is Open For All',
+    description: '+92-3181195330',
+    href:"tel:+92-3181195330"
   },
 ];

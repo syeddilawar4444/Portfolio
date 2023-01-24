@@ -38,8 +38,15 @@ module.exports = {
       fontFamily: {
         'script': ['"Luxurious Script"', 'cursive'],
         'Khula': ['"Khula"', 'sans-serif'],
+        'Hubballi': ['"Hubballi"', 'cursive'],
+        'Roboto': ['"Roboto Serif"', 'serif'],
+        // 
+    // 'Roboto Serif', serif;
 
       },
+      backgroundImage: {
+        'back': "url('/src/assets/img/background.gif')",
+      }
     },
   },
   plugins: [],

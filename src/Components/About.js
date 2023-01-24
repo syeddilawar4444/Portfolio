@@ -17,9 +17,23 @@ function About() {
                          before:hidden before:lg:block ">
                         Syed Dilawar Hussain
                         </h2>
-                        <p className='mb4 text-accent mt-2'>I am A MERN STACK DEVELOPER</p>
+                        <p className='mb4 text-accent mt-2'>I AM A MERN STACK DEVELOPER</p>
                         <hr className='mb-8 opacity-5' />
-                        <p className='mb-8 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit veritatis tenetur illum odit! Eaque odio quia enim magni!</p>
+                        <p className='mb-8 text-center'>
+                          Hi my name is syed dilawar Hussain 
+                          my learning to HTML, CSS, BOOTSTRAPE, JAVASCRIPT, REACT JS,REACT NATIVE, NODE JS, EXPRESS JS, MONGODB
+
+                          The purpose of JavaScript Mastery is
+                           to help aspiring and established developers
+                            to take their development skills to the next 
+                            level and build awesome apps.
+
+
+
+                          Develop highly interactive Front end / User
+                           Interfaces for your web and mobile applications
+                           Integration of third party services such as Firebase
+                        </p>
 
                     </div>
                 </div>

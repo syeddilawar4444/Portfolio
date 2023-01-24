@@ -16,7 +16,7 @@ function Services() {
           '>Services</h2>
           <p className='subtitle'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, culpa quam error eligendi voluptatibus cumque? ipsum dolor sit amet consectetur adipisicing elit. Saepe quam doloribus neque, architecto suscipit explicabo perferendis! Nisi ipsum voluptas pariatur quisquam vero rerum! Corrupti, eaque non totam iste quo provident? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci ad maxime tempore totam quam nihil!</p>
       </div>
-      <div className="grid lg:grid-cols-4 gap-8">
+      <div className="grid lg:grid-cols-3 gap-8">
         {services.map((item,index)=>{
           return <div className="bg-secondary rounded-2xl p-6" key={index}>
             {/* icons */}

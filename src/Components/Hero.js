@@ -1,13 +1,13 @@
 import React from 'react'
-import Womanimg from "../assets/img/circle-spin.svg"
+import Background from "../assets/img/background.gif"
 
 
 
 export default function Hero() {
   return (
-    <section id='home' className='lg:h-[85vh] flex items-center
-     bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat 
-     py-32 lg:py-0 overflow-hidden'>
+    <section id='home' className="lg:h-[85vh] flex items-center
+     bg-primary lg:bg-cover lg:bg-center bg-no-repeat lg:bg-no-repeat 
+     py-32 lg:py-0 overflow-hidden lg:bg-back md:bg-back bg-cover ">
 
         <div className="container mx-auto h-full">
           <div className="flex items-center h-full pt-8">
@@ -23,8 +23,6 @@ export default function Hero() {
                  text-center lg:text-left font-Khula tracking-wider '>
                   A passionate MERN Stack Developer  having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.
                   </p>
-            
-
                 <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all">
                   Work With Me
                 </button>
@@ -33,16 +31,10 @@ export default function Hero() {
                 
                             </div>
             {/* right side */}
-            <div className="hidden lg:flex flex-1 justify-end items-end h-full">
+            {/* <div className="hidden lg:flex flex-1 justify-end items-end h-full"> */}
               {/* <Womanimg /> */}
-              <div>
-        
-
-              </div>
-            
-
-              <img className='animate-spin' src="../assets/img/circle-spin.svg" alt="" />
-            </div>
+              {/* <img className='' src={Background} alt="" /> */}
+            {/* </div> */}
           </div>
         </div>
 
