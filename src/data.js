@@ -23,13 +23,16 @@ import FiverBrandIcon from './assets/img/brands/fiverr.png';
 import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
-// projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+                  // projects images
+// HTML Project img
+import Project1 from './assets/img/projects/html/1.png';
+import Project2 from './assets/img/projects/html/2.png';
+import Project3 from './assets/img/projects/html/3.png';
+import Project4 from './assets/img/projects/html/4.png';
+import Project5 from './assets/img/projects/html/5.png';
+import Project6 from './assets/img/projects/html/6.png';
+import Project7 from './assets/img/projects/html/7.PNG';
+
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -118,58 +121,90 @@ export const brands = [
 // projects
 export const projectsData = [
   {
+    id: '0',
+    image: Project7,
+    name: 'Olx Application',
+    
+    category: 'Web Development',
+    technology: 'HTML / CSS / JAVASCRIPT/ FIREBASE',
+
+    github:"https://www.github.com",
+
+    view:"https://smit-batch-8-olx-clone.web.app/",
+    description:"The application also has user SignUp and Login as a sellers and buyers A place where sellers could sell their products and post an Ad, and buyers are able to view those products, With real-time chat feature, the buyer can ask questions about the product using with chat feature"
+  },
+  {
     id: '1',
     image: Project1,
-    name: 'OLX APPLICATION',
-    category: 'REact native',
-    github:"https://www.github.com",
-    view:"https://www.netlify.com/",
+    name: 'Biography',
+    
+    category: 'Web Development',
+    technology: 'HTML / CSS',
 
-    description:"OLX Application is the my name is syed dilawar hussain with the real chat app Feature in teh machine to teh root we as nothing int her root we as nothien in tehr  "
+    github:"https://www.github.com",
+
+    view:"https://gleeful-sprite-68284d.netlify.app/",
+    description:"Design simple biography of '1st Governor-General of Pakistan MOHAMMAD ALI JINNAH' using HTML / CSS "
   },
   {
-    
     id: '2',
     image: Project2,
-    name: 'project name 2',
-    category: 'React native',
-    
-    description:"OLX Application is the my name is syed dilawar hussain with the real chat app Feature in teh machine to teh root we as nothing int her root we as nothien in tehr  "
+    name: 'Registration Form',
+    category: 'Web Development',
+    technology: 'HTML / CSS',
+
+    github:"https://www.github.com",
+    view:"https://visionary-biscuit-3916a5.netlify.app/",
+    description:"Design Simple and responsive registration form using HTML / CSS"
 
   },
   {
+    // https://merry-crisp-91ea81.netlify.app/
     id: '3',
     image: Project3,
-    name: 'project name 3',
-    category: 'react js',
-    description:"OLX Application is the my name is syed dilawar hussain with the real chat app Feature in teh machine to teh root we as nothing int her root we as nothing."
+    name: 'Paralex Website',
+    category: 'Web Development',
+    technology: 'HTML / CSS',
 
+    github:"https://www.github.com",
+    view:"https://merry-crisp-91ea81.netlify.app/",
+    description:"Create Paralex Website with beautiful design using HTML / CSS "
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
-    category: 'react js',
-    description:"OLX Application is the my name is syed dilawar hussain with the real chat app Feature in teh machine to teh root we as nothing int her root we as nothien in tehr  "
+    name: 'Portfolio',
+    category: 'Web Development',
+    technology: 'HTML / CSS',
+
+    github:"https://www.github.com",
+    view:"https://fluffy-crostata-eab9d1.netlify.app/",
+    description:"Create simple portfolio website with responsive using HTML / CSS"
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
+    name: 'Restaurant',
     category: 'web development',
-    description:"OLX Application is the my name is syed dilawar hussain with the real chat app Feature in teh machine to teh root we as nothing int her root we as nothien in tehr  "
+    technology: 'HTML / CSS',
+
+    github:"https://www.github.com",
+    view:"https://fantastic-froyo-2d1ed5.netlify.app/",
+    description:"Create beautifull restaurants website with responsive using HTML / CSS"
 
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
+    name: 'Documentaion',
     category: 'web development',
-    description:"OLX Application is the my name is syed dilawar hussain with the real chat app Feature in teh machine to teh root we as nothing int her root we as nothien in tehr  "
+    technology: 'HTML / CSS',
+    github:"https://www.github.com",
+    view:"https://precious-alpaca-e4d749.netlify.app/",
+    description:"Create javascript documentation website using HTML / CSS"
 
   },
 ];
-
 // projects
 export const projectsNav = [
   {
