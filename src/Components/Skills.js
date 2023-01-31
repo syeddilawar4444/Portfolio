@@ -1,10 +1,5 @@
 import React from 'react'
-
-// import skill from data.js
 import {skills} from "../data"
-//  className='flex items-center justify-center'
-// className='grid  md:grid-flow-row'
-import Tai from "../assets/img/skills/tailwind.svg"
 function Skill() {
   return (
     <section className='bg-tertiary py-12'>

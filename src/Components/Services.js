@@ -13,8 +13,9 @@ function Services() {
           before:absolute before:opacity-40
           before:-top-[1rem] before:-left-[145px]
           before:hidden before:lg:block tracking-[12px]
+          mb-12
           '>Services</h2>
-          <p className='subtitle'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, culpa quam error eligendi voluptatibus cumque? ipsum dolor sit amet consectetur adipisicing elit. Saepe quam doloribus neque, architecto suscipit explicabo perferendis! Nisi ipsum voluptas pariatur quisquam vero rerum! Corrupti, eaque non totam iste quo provident? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci ad maxime tempore totam quam nihil!</p>
+          {/* <p className='subtitle'>I Created FontEnd Web and Mobile Application</p> */}
       </div>
       <div className="grid lg:grid-cols-3 gap-8">
         {services.map((item,index)=>{

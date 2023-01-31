@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Image from "../assets/img/about.webp"
+import Image from "../assets/img/contact/animi.png"
 function About() {
   return (
     <section id='about' className='section bg-secondary'>
@@ -19,20 +19,9 @@ function About() {
                         </h2>
                         <p className='mb4 text-accent mt-2'>I AM A MERN STACK DEVELOPER</p>
                         <hr className='mb-8 opacity-5' />
-                        <p className='mb-8 text-center'>
-                          Hi my name is syed dilawar Hussain 
-                          my learning to HTML, CSS, BOOTSTRAPE, JAVASCRIPT, REACT JS,REACT NATIVE, NODE JS, EXPRESS JS, MONGODB
-
-                          The purpose of JavaScript Mastery is
-                           to help aspiring and established developers
-                            to take their development skills to the next 
-                            level and build awesome apps.
-
-
-
-                          Develop highly interactive Front end / User
-                           Interfaces for your web and mobile applications
-                           Integration of third party services such as Firebase
+                        <p className='mb-8 text-justify'>
+                        A passionate Full Stack Software Developer with huge knowledge and proficiency in Html / Css / JavaScript / ReactJs / NodeJs / React Native and some other cool libraries and frameworks,
+all Skill Learn Saylani Mass IT Training Institute as well as strong skills.
                         </p>
 
                     </div>

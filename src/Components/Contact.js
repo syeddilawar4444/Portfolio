@@ -13,7 +13,7 @@ function Contact() {
                  before:opacity-40 before:-top-5 before:-left-[140px]
                  before:hidden before:lg:block tracking-[12px]
                  '>Contact Me</h2>
-                 <p className='subtitle'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit numquam repellat, cum architecto excepturi adipisci repudiandae hic voluptates? Atque, minima!</p>
+                 <p className='subtitle'>If you want to contact to me, do it by email syeddilawar4444@gmail.com </p>
             </div>
             <div className="flex flex-col lg:gap-x-8 lg:flex-row">
                 {/* information */}
