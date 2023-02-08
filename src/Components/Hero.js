@@ -22,7 +22,7 @@ export default function Hero() {
                 font-bold md:tracking-[-2]'>I Build Web <br /> And Mobile Applications </h1>
                 <p className='text-lg pt-4 
                 pb-8 md:pt-6 md:pb-12 max-w-[480px]
-                 text-center lg:text-left font-Khula tracking-wider text-gray-400 '>
+                 text-center lg:text-left font-Khula tracking-wider text-gray-400n '>
                   A passionate MERN Stack Developer  having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.
                   </p>
                     <button className="btn btn-md bg-accent rounded-md hover:bg-accent-hover md:btn-lg transition-all">
